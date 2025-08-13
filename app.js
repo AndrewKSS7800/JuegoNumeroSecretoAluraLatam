@@ -34,7 +34,7 @@ function verificarNumero(){
     
     if (numeroUsuario != numeroSecreto){
             if (contador == limiteIntento){
-                alert(`Alcanzaste el limite de intentos,el numero era ${numeroSecreto} fallaste :(`);
+                alert(`Alcanzaste el límite de intentos,el número era ${numeroSecreto}, fallaste :(`);
                 document.getElementById('reiniciar').removeAttribute('disabled');
                 reiniciarJuego();
                 return;
